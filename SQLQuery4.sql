@@ -50,4 +50,5 @@ SELECT orderid, orderdate, custid, empid,
        DATEFROMPARTS(YEAR(orderdate), 12, 31) AS end_of_year_date
 FROM Sales_Orders
 WHERE orderdate <> DATEFROMPARTS(YEAR(orderdate), 12, 31);
+
 --Use the actual expression instead of the alias. 
