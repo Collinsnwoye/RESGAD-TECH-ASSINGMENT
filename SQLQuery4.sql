@@ -52,3 +52,4 @@ FROM Sales_Orders
 WHERE orderdate <> DATEFROMPARTS(YEAR(orderdate), 12, 31);
 
 --Use the actual expression instead of the alias. 
+
