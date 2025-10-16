@@ -5,3 +5,4 @@ FROM (
     FROM Sales.Orders
     ORDER BY custid, orderdate DESC
 ) AS RecentOrders;
+
