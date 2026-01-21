@@ -6,3 +6,4 @@ FROM (
     ORDER BY custid, orderdate DESC
 ) AS RecentOrders;
 
+
